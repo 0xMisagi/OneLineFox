@@ -1,0 +1,61 @@
+#nav-bar {
+    margin-right: calc(100vw - var(--navbarWidth)) !important;
+    padding-left: 80px !important;
+    margin-top: -38px !important;
+}
+
+#urlbar-container {
+    min-width: 0px !important;
+}
+
+/* Simplifying interface */
+
+#nav-bar {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+/* Applying vibrancy color based on current theme */
+#navigator-toolbox {
+    border: none !important;
+    -moz-appearance: -moz-mac-vibrant-titlebar-light !important;
+}
+
+#navigator-toolbox:-moz-lwtheme-brighttext {
+    border: none !important;
+    -moz-appearance: -moz-mac-vibrant-titlebar-dark !important;
+}
+
+#PersonalToolbar {
+    background: transparent !important;
+}
+
+.titlebar-spacer {
+    display: none !important;
+}
+
+#urlbar-background {
+    border: none !important;
+    border-radius: 8px !important;
+}
+
+#urlbar:not(:hover):not([breakout][breakout-extend])>#urlbar-background {
+    box-shadow: none !important;
+    background: none !important;
+}
+
+/* Hide urlbar elements when not active */
+
+.urlbar-icon,
+#userContext-indicator,
+#userContext-label {
+    fill: transparent !important;
+    background: transparent !important;
+    color: transparent !important;
+}
+
+#urlbar:hover .urlbar-icon,
+#urlbar:active .urlbar-icon,
+#urlbar[focused] .urlbar-icon {
+    fill: var(--toolbar-color) !important;
+}

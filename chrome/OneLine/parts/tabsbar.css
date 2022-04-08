@@ -1,0 +1,30 @@
+/* Full width tabs */
+/*.tabbrowser-tab:not([style^="max-width"]):not([pinned]),
+.tabbrowser-tab[style^="max-width: 100px !important;"]:not([pinned]) {
+    max-width: 100% !important;
+}*/
+
+/* Enable this to show the tab close button when hovering the tab */
+/* .tabbrowser-tab:hover .tab-close-button { 
+    display: -moz-inline-box !important 
+} */
+
+#TabsToolbar {
+    margin-left: var(--navbarWidth) !important;
+}
+
+.titlebar-buttonbox-container {
+    display: block !important;
+    /* separates the buttons container from the tabs bar */
+}
+
+.titlebar-buttonbox {
+    top: 13px !important;
+    /* moving buttons down to the nav-bar */
+    margin-left: -34vw !important;
+}
+
+/* Dragging space */
+:root[sizemode="maximized"] #TabsToolbar {
+    margin-top: 1px;
+}

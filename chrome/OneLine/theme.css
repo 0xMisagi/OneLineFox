@@ -1,0 +1,25 @@
+@import "parts/animations.css";
+@import "parts/navbar.css";
+@import "parts/tabsbar.css";
+@import "parts/tweaks.css";
+
+@namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
+
+
+@media (-moz-gtk-csd-available),
+(-moz-mac-big-sur-theme: 0),
+(-moz-mac-big-sur-theme: 1) {
+    :root {
+        --navbarWidth: 35vw;
+        /* Set width of navbar. Use px for a fixed width 
+                                  or vw for a percentage of your window. */
+        --animationSpeed: 0.15s;
+        --tab-min-height: 30px !important;
+    }
+}
+
+/* Set theme version text in customization panel */
+#customization-footer::before {
+	content: "OneLine Firefox Theme";
+	padding: 9px;
+}
