@@ -3,7 +3,7 @@
 ![](https://github.com/0xMisagi/OneLineFox/blob/main/screenshots/oneline.png?raw=true)
 
 
-## Installation
+## Installation (macOS only)
 
 > In the `about:config` page on your Firefox browser, set the following parameters to True :
 
