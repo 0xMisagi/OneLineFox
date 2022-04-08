@@ -17,7 +17,7 @@
 
  - `gfx.webrender.all`
 
-`svg.context-properties.content.enabled`
+ - `svg.context-properties.content.enabled`
 
 > Copy the `chrome` folder from this repository to your Firefox's profile folder. You can find the it here :
 
