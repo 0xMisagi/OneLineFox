@@ -1,6 +1,6 @@
 # OneLineFox :rocket:
 
-![](https://github.com/0xMisagi/OneLineFox/blob/main/screenshots/oneline.png?raw=true)
+![](https://github.com/0xMisagi/OneLineFox/blob/main/screenshots/screenshot.png?raw=true)
 
 
 ## Installation (macOS only)
